@@ -4,7 +4,7 @@ from django.utils import timezone
 from django.test import TestCase
 
 """import from models.py class Question"""
-from .models import Question, Choice
+from mysite.polls.models import Question, Choice
 
 
 
