@@ -8,7 +8,6 @@ from .models import Question, Choice
 
 
 
-
 class QuestionModelTest(TestCase):
     def test_new_poll(self):
 
@@ -17,7 +16,7 @@ class QuestionModelTest(TestCase):
         poll.question_text = "Shall we begin?"
         poll.pub_date = timezone.now()
         poll.save()
-
+        self.assertEquals(poll.question_text,"Shall we begin?")
 
     def test_total_votes_poll(self):
 
