@@ -1,10 +1,8 @@
-import datetime
-
-from django.utils import timezone
 from django.test import TestCase
+from django.utils import timezone
 
 """import from models.py class Question"""
-from mysite.polls.models import Question, Choice
+from polls.models import Question, Choice
 
 
 

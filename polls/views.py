@@ -1,7 +1,7 @@
 from django.http import HttpResponseRedirect, HttpResponse
 from django.core.urlresolvers import reverse
 from django.shortcuts import get_object_or_404, render
-from .models import Choice, Question
+from polls.models import Choice, Question
 from django.views import generic
 
 
