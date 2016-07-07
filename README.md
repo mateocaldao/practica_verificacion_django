@@ -3,8 +3,7 @@
 A simple poll app
 ##Isntallation
 1. Clone the repo and install and create a new environment using [virtualenv](https://github.com/pypa/virtualenv):
-```source venv/bin/activate
-```
+```source venv/bin/activate```
 
 2. Once you have created and activated the environment you have to install the dependencies:
 ```pip install -r requirements.txt```
